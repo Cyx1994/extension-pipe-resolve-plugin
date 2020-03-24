@@ -1,6 +1,5 @@
 "use strict";
 const fs = require('fs');
-const getPaths = require('enhanced-resolve/lib/getPaths')
 
 module.exports = class ExtensionPipeResolvePlugin {
     constructor(extension, includes) {
