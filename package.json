@@ -1,0 +1,26 @@
+{
+  "name": "extension-pipe-resolve-plugin",
+  "version": "1.0.0",
+  "description": "use extension like reactnative",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "resolve-plugin",
+    "extension"
+  ],
+  "author": "empty_",
+  "license": "MIT",
+  "dependencies": {
+    "enhanced-resolve": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "peerDependencies": {
+    "webpack": ">=4.0.0"
+  }
+}
